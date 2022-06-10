@@ -188,10 +188,16 @@
         display: flex;
         align-items: center;
         justify-content: center;
+     
       
    }
    .our-partners .partner-row .parnter-col img{
-        max-width: 200px;
+        max-width: 200px; 
+        transition: transform .4s;
+       
+   }
+   .our-partners .partner-row .parnter-col img:hover{
+    transform: scale(1.1);
        
    }
 /* =================================
@@ -215,6 +221,7 @@ footer{
 .footer-row div{
  
     padding: 30px;
+  
     
 } 
 
