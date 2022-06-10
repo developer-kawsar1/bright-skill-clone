@@ -150,6 +150,65 @@
     text-decoration: none;
 } 
 /* =================================
+        Why section 
+   ================================ */  
+   .why{
+    padding: 5.5rem 0rem 5.5rem; 
+    background-color: var(--khaki-100);
+
+   }  
+   .why-container{
+       padding: 0 5%;
+
+   } 
+   .why-container h2{
+      color: var( --gray-4300);
+      font-family: hind; 
+      margin-bottom: 5px;
+      font-size: 1.25rem;
+
+   } 
+   .why-container p{
+      color: var(--gray-4000);
+      
+      margin-bottom: 5px;
+      font-size: 1rem;
+
+   } 
+   .why-container .cards{
+       display: grid;
+       align-items: center; 
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-gap: 20px;
+   } 
+   .why-container .cards .card{
+       padding:30px 15px;
+       border-radius: 25px; 
+       text-align: center;
+       background-color: #fff;  
+       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+       
+   } 
+   .why-container .cards .card .img-container{
+     height: 4.0625rem;
+     width: 4.0625rem;
+      
+     margin: 0 auto; 
+     border-radius: 50%; 
+     display: flex;
+
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 10px;
+   } 
+   .why-container .cards .card .img-container img{
+  max-width: 100%; 
+       
+   } 
+   
+
+
+/* =================================
         Our partnars 
    ================================ */ 
    .our-partners{
@@ -157,12 +216,13 @@
        padding: 5.5rem 0rem 5.5rem;
    } 
     
-   .our-partners .section-title{
+   .section-title{
        text-align: center;
        color: var(--gray-4600);
        font-family: hind; 
        font-size: 2.375rem;
-       font-weight: 600;
+       font-weight: 600; 
+       margin-bottom: 1rem;
    } 
     .partner-container{
         padding: 0 5%;

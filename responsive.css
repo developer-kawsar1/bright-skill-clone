@@ -5,11 +5,19 @@
 body{
     background-color: red;
 }  
+ /* why section  */ 
+
+ .why-container .cards{
+  
  
+    grid-template-columns:  1fr;
+
+} 
+ /* why section  */
 .our-partners .parnter-col{
     flex: 0 0 calc(33.3333333333% - 20px);
 }
-.our-partners .section-title{
+.section-title{
 
     font-size: 1.75rem;
 }
@@ -29,6 +37,16 @@ body{
     body{
         background-color: teal;
     } 
+
+    /* why section  */ 
+
+ .why-container .cards{
+  
+ 
+    grid-template-columns:  1fr 1fr;
+
+} 
+ /* why section  */
 
     /* footer  */ 
     .footer-row{
@@ -61,7 +79,13 @@ body{
 
     .footer-row{
         grid-template-columns: 2fr 1fr 1fr 1fr ;
-    }
+    } 
+    .why-container .cards{
+  
+ 
+        grid-template-columns:  1fr 1fr 1fr ;
+    
+    } 
 
 
 }
