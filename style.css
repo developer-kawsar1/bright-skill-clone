@@ -1,11 +1,188 @@
+/* =================================
+           FONTS
+   ================================ */ 
+
+   @font-face {
+       font-family: kalporosh;
+       src: url(assets/fonts/kalpurush.ttf);
+   }
+
+   :root {
+    /* Orange */
+    --orange-100: #fffaf3;
+    --orange-200: #fef8f2;
+    --orange-300: #fff6ea;
+    --orange-400: #fcf0e8;
+    --orange-500: #fcf0e7;
+    --orange-600: #fff1e3;
+    --orange-700: #fcebd2;
+    --orange-800: #fcc797;
+    --orange-900: #e8b586;
+    --orange-1000: #ff8f28;
+    --orange-1100: #f49910;
+    --orange-1200: #f39200;
+    --orange-1300: #f48a01;
+    --orange-1400: #df6812;
+    --orange-1500: #d66113;
+    --orange-1600: #4f3624;
+  
+    /* Gray */
+    --gray-100: #ffffff;
+    --gray-200: #fafafa;
+    --gray-300: #f9f9f9;
+    --gray-400: #fff8f6;
+    --gray-500: #f7f8fa;
+    --gray-600: #f8f8f8;
+    --gray-700: #f3f3f3;
+    --gray-800: #f1f1f1;
+    --gray-900: #f0f0f0;
+    --gray-1000: #eff2eb;
+    --gray-1100: #eeeeee;
+    --gray-1200: #ededed;
+    --gray-1300: #e7eaf0;
+    --gray-1400: #e8e8e8;
+    --gray-1500: #e7e7eb;
+    --gray-1600: #e6e6e6;
+    --gray-1700: #e3e3e3;
+    --gray-1800: #e1e1e1;
+    --gray-1900: #e0e0e0;
+    --gray-2000: #d9d9d9;
+    --gray-2100: #d6d9dd;
+    --gray-2200: #d6d6d6;
+    --gray-2300: #d1d1d1;
+    --gray-2400: #cccccc;
+    --gray-2500: #ccc8c6;
+    --gray-2600: #bfbfbf;
+    --gray-2700: #b1b1b1;
+    --gray-2800: #aeaeae;
+    --gray-2900: #acacac;
+    --gray-3000: #a7a7a7;
+    --gray-3100: #a4a4a4;
+    --gray-3200: #a0a0a0;
+    --gray-3300: #9d9d9d;
+    --gray-3400: #9c9c9c;
+    --gray-3500: #919191;
+    --gray-3600: #8f8f8f;
+    --gray-3700: #838383;
+    --gray-3800: #7e7e7e;
+    --gray-3900: #6e6e6e;
+    --gray-4000: #575757;
+    --gray-4100: #4a4a4a;
+    --gray-4200: #414141;
+    --gray-4300: #393939;
+    --gray-4400: #242629;
+    --gray-4500: #232222;
+    --gray-4600: #1c1c1c;
+    --gray-4700: #191b20;
+  
+    /* Vermilion */
+    --vermilion-100: #f9eee8;
+    --vermilion-200: #ffebe6;
+    --vermilion-300: #c85a1c;
+    --vermilion-400: #f83600;
+    --vermilion-500: #332926;
+  
+    /* Red */
+    --red-100: #ffecec;
+    --red-200: #faeaea;
+    --red-300: #f7c6c6;
+    --red-400: #e78b8b;
+    --red-500: #dc5e5e;
+    --red-600: #ff4b4b;
+    --red-700: #c92929;
+  
+    /* Violet */
+    --violet-100: #efefff;
+    --violet-200: #e7e8f9;
+    --violet-300: #e5e6f7;
+  
+    /* Olive */
+    --olive-100: #c5dfa5;
+    --olive-200: #8db15c;
+    --olive-300: #597a2f;
+    --olive-400: #588d13;
+  
+    /* Bluish green */
+    --bluishGreen-100: #4dab65;
+  
+    /* Khaki */
+    --khaki-100: #fff9ef;
+    --khaki-200: #fbf5eb;
+    --khaki-300: #fef5e6;
+  
+    /* Bluish cyan */
+    --bluishCyan-100: #e7f4f9;
+    --bluishCyan-200: #dff0f5;
+    --bluishCyan-300: #a2d4e1;
+    --bluishCyan-400: #38a6c1;
+    --bluishCyan-500: #0b90ba;
+  
+    /* Teal */
+    --teal-100: #28d38c;
+    --teal-200: #15b562;
+  
+    /* Greenish cyan */
+    --greenishCyan-100: #869791;
+  
+    /* Cyan */
+    --cyan-100: #68ccc1;
+  
+    /* Lime */
+    --lime-100: #f6ffdd;
+  
+    /* Purple violet */
+    --purpleViolet-100: #1e05b7;
+  
+    /* Scarlet red */
+    --scarletRed-100: #4f2431;
+  
+  }
+  
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 } 
-
+/* =================================
+            FOOTER SECTION 
+   ================================ */
 footer{
     padding: 5.5rem 0rem 5.5rem;
     background: linear-gradient(98.06deg, #4F3624 0%, #4F2431 100%); 
+    font-family: kalporosh;
+} 
+
+.footer-container{
+    padding: 0 5%;
+} 
+.footer-row{
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: 2fr 1fr 1fr 1fr
+    
+}
+.footer-row div{
+ 
+    padding: 30px;
+    
+} 
+
+footer p{
+    color: #fff;
+}
+footer h3{
+    color: #fff; 
+    margin-bottom: 10px;
+}
+footer a{
+    display: block;
+    margin-bottom: 13px;
+    color: var(--gray-2100); 
+    font-size: 1rem;
+    transition: color 350ms ease-in;
+} 
+footer a:hover{
+    color: var(--orange-1200);
 }
