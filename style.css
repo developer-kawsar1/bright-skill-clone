@@ -6,6 +6,10 @@
        font-family: kalporosh;
        src: url(assets/fonts/kalpurush.ttf);
    }
+   @font-face {
+       font-family: hind;
+       src: url(assets/fonts/HindSiliguri-Medium.ttf);
+   }
 
    :root {
     /* Orange */
@@ -145,6 +149,51 @@
     box-sizing: border-box;
     text-decoration: none;
 } 
+/* =================================
+        Our partnars 
+   ================================ */ 
+   .our-partners{
+       background-color: #fff;
+       padding: 5.5rem 0rem 5.5rem;
+   } 
+    
+   .our-partners .section-title{
+       text-align: center;
+       color: var(--gray-4600);
+       font-family: hind; 
+       font-size: 2.375rem;
+       font-weight: 600;
+   } 
+    .partner-container{
+        padding: 0 5%;
+    }
+   .our-partners .partner-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+   }
+   
+   .our-partners .parnter-col{
+    
+        flex: 0 0 calc(16.66% - 20px);
+   
+        color: white;
+        padding: 20px;
+        margin: 10px; 
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 10px;
+        height: 100px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+   }
+   .our-partners .partner-row .parnter-col img{
+        max-width: 200px;
+       
+   }
 /* =================================
             FOOTER SECTION 
    ================================ */
