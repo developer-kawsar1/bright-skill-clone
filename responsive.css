@@ -13,6 +13,11 @@ body{
     grid-template-columns:  1fr;
 
 } 
+
+.testimonial-cards{
+    grid-template-columns:  1fr ;
+}
+
  /* why section  */
 .our-partners .parnter-col{
     flex: 0 0 calc(33.3333333333% - 20px);
@@ -26,6 +31,9 @@ body{
 .footer-row{
     grid-template-columns: 1fr ;
 } 
+.starting-process-row{
+    grid-template-columns: 1fr;
+}
 .footer-row div{
     text-align: center;
 }
@@ -46,6 +54,13 @@ body{
     grid-template-columns:  1fr 1fr;
 
 } 
+
+.testimonial-cards{
+    grid-template-columns:  1fr 1fr  ;
+}
+.starting-process-row {
+    grid-template-columns: 1fr  1fr;
+}
  /* why section  */
 
     /* footer  */ 
@@ -86,6 +101,13 @@ body{
         grid-template-columns:  1fr 1fr 1fr ;
     
     } 
+    .starting-process-row {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .testimonial-cards{
+        grid-template-columns:  1fr 1fr 1fr ;
+    }
 
 
 }
