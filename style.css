@@ -148,7 +148,57 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-} 
+}  
+
+
+
+/* =================================
+    Hero section 
+   ================================ */  
+
+    .hero{
+    padding: 5.5rem 0rem 5.5rem;
+    background-color: #fff;
+   } 
+   .hero-container{
+       padding: 0 5%;
+   }  
+   .hero-row{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+   .hero-col .content{
+       padding: 30px;
+      
+   } 
+   .hero-col .content h1{
+      font-size: 3.875rem;
+      
+      font-family: hind;
+      color: var(--gray-4500);
+   }
+   .hero-col .content h1 span{
+       color:var(--orange-1400);
+   }
+   .hero-col .content p{
+       color:var(--gray-4300);
+       font-family: kalporosh;
+       font-weight: 700;
+       font-size: 1.5rem;
+   } 
+   .hero-col  .content .hero-btn{
+    background: linear-gradient(122.33deg, #F39200 0%, #F83600 102.08%);
+    padding: 10px 20px;
+    border-radius: 0.625rem;
+    color: #fff;
+    padding: 1rem 3.3125rem;
+    display: inline-block;
+    margin-top: 10px;
+   }
+   .hero-col .img-container img{
+       max-width: 100%;
+   }
 /* =================================
     Course Starting process section 
    ================================ */  
