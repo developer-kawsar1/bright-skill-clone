@@ -4,7 +4,25 @@
 @media only screen and (max-width: 595px) {
 body{
     background-color: red;
+}   
+
+/* Hero  */
+
+.hero-row{
+    flex-direction: column;
 }  
+.hero-col .content h1{
+  font-size: 1.75rem;
+} 
+.hero-col .content{
+    text-align: center;
+}
+.hero-col .content p{
+
+    font-size: 1rem;
+    font-weight: 300;
+}
+
  /* why section  */ 
 
  .why-container .cards{
@@ -45,7 +63,19 @@ body{
     body{
         background-color: teal;
     } 
+/* hero  */
 
+.hero-col .content h1{
+    font-size: 1.90rem;
+  } 
+  .hero-col .content{
+      text-align: center;
+  }
+  .hero-col .content p{
+  
+      font-size: 1.3rem;
+      font-weight: 400;
+  }
     /* why section  */ 
 
  .why-container .cards{
@@ -76,7 +106,21 @@ body{
 @media only screen and (min-width: 768px) {
     body{
         background-color: green;
-    } 
+    }  
+
+    /* hero  */
+
+.hero-col .content h1{
+    font-size: 2.30rem;
+  } 
+  .hero-col .content{
+      text-align: center;
+  }
+  .hero-col .content p{
+  
+      font-size: 1.4rem;
+      font-weight: 500;
+  }
    
 
 
@@ -118,4 +162,17 @@ body{
     body{
         background-color: saddlebrown;
     }
+    /* hero  */
+
+.hero-col .content h1{
+    font-size: 3.875rem;
+  } 
+  .hero-col .content{
+      
+  }
+  .hero-col .content p{
+  
+      font-size: 1.4rem;
+      font-weight: 400;
+  }
 }

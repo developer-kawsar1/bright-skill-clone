@@ -184,7 +184,7 @@
    .hero-col .content p{
        color:var(--gray-4300);
        font-family: kalporosh;
-       font-weight: 700;
+       font-weight: 500;
        font-size: 1.5rem;
    } 
    .hero-col  .content .hero-btn{
